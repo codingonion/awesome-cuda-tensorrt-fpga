@@ -160,6 +160,8 @@
 
     - [AyakaGEMM/Hands-on-GEMM](https://github.com/AyakaGEMM/Hands-on-GEMM) <img src="https://img.shields.io/github/stars/AyakaGEMM/Hands-on-GEMM?style=social"/> : A GEMM tutorial.
 
+    - [AyakaGEMM/Hands-on-MLIR](https://github.com/AyakaGEMM/Hands-on-MLIR) <img src="https://img.shields.io/github/stars/AyakaGEMM/Hands-on-MLIR?style=social"/> : Hands-on-MLIR.
+
     - [zpzim/MSplitGEMM](https://github.com/zpzim/MSplitGEMM) <img src="https://img.shields.io/github/stars/zpzim/MSplitGEMM?style=social"/> : Large matrix multiplication in CUDA.
 
     - [jundaf2/CUDA-INT8-GEMM](https://github.com/jundaf2/CUDA-INT8-GEMM) <img src="https://img.shields.io/github/stars/jundaf2/CUDA-INT8-GEMM?style=social"/> : CUDA 8-bit Tensor Core Matrix Multiplication based on m16n16k16 WMMA API.
@@ -175,6 +177,8 @@
     - [godweiyang/NN-CUDA-Example](https://github.com/godweiyang/NN-CUDA-Example) <img src="https://img.shields.io/github/stars/godweiyang/NN-CUDA-Example?style=social"/> : Several simple examples for popular neural network toolkits calling custom CUDA operators.
 
     - [yhwang-hub/Matrix_Multiplication_Performance_Optimization](https://github.com/yhwang-hub/Matrix_Multiplication_Performance_Optimization) <img src="https://img.shields.io/github/stars/yhwang-hub/Matrix_Multiplication_Performance_Optimization?style=social"/> : Matrix Multiplication Performance Optimization.
+
+    - [yao-jiashu/KernelCodeGen](https://github.com/yao-jiashu/KernelCodeGen) <img src="https://img.shields.io/github/stars/yao-jiashu/KernelCodeGen?style=social"/> : GEMM/Conv2d CUDA/HIP kernel code generation using MLIR.
 
     - [PacktPublishing/Learn-CUDA-Programming](https://github.com/PacktPublishing/Learn-CUDA-Programming) <img src="https://img.shields.io/github/stars/PacktPublishing/Learn-CUDA-Programming?style=social"/> : Learn CUDA Programming, published by Packt.
 
