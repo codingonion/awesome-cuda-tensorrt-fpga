@@ -15,16 +15,14 @@
     - [ROCm Learning](#rocm-learning)
     - [FPGA Learning](#fpga-learning)
   - [Frameworks](#frameworks)
-    - [CUDA and TensorRT Frameworks](#cuda-and-tensorrt-frameworks)
+    - [CUDA and TensorRT Framework](#cuda-and-tensorrt-framework)
         - [GPU Interface](#gpu-interface)
             - [CPP Implementation](#cpp-implementation)
             - [Python Implementation](#python-implementation)
             - [Rust Implementation](#rust-implementation)
             - [Julia Implementation](#julia-implementation)
-        - [Multi-GPU Frameworks](#multi-gpu-frameworks)
-        - [Robotics Frameworks](#robotics-frameworks)
-        - [Scientific Computing Frameworks](#scientific-computing-frameworks)
-        - [Machine Learning Frameworks](#machine-learning-frameworks)
+        - [Scientific Computing Framework](#scientific-computing-framework)
+        - [Machine Learning Framework](#machine-learning-framework)
         - [AI Inference Framework](#ai-inference-framework)
             - [C Implementation](#c-implementation)
             - [CPP Implementation](#cpp-implementation)
@@ -34,7 +32,10 @@
             - [Go Implementation](#go-implementation)
             - [LLM Deployment Engine](#llm-deployment-engine)
             - [LLM Inference Benchmark](#llm-inference-benchmark)
-    - [HDL and FPGA Frameworks](#hdl-and-fpga-frameworks)
+        - [Multi-GPU Framework](#multi-gpu-framework)
+        - [Robotics Framework](#robotics-framework)
+        - [Web3 Framework](#web3-framework)
+    - [HDL and FPGA Framework](#hdl-and-fpga-framework)
         - [C HDL](#c-hdl)
         - [Scala HDL](#scala-hdl)
         - [Rust HDL](#rust-hdl)
@@ -74,6 +75,9 @@
     - [FPGA Blogs](#fpga-blogs)
     - [CUDA and TensorRT Blogs](#cuda-and-tensorrt-blogs)
   - [Videos](#videos)
+  - [Jobs](#jobs)
+
+
 
 ## Awesome List
 
@@ -236,7 +240,7 @@
 
 ## Frameworks
 
-  - ### CUDA and TensorRT Frameworks
+  - ### CUDA and TensorRT Framework
 
     - #### GPU Interface
       ##### GPU接口
@@ -329,26 +333,7 @@
 
 
 
-
-
-
-    - #### Multi-GPU Frameworks
-      ##### 多GPU框架
-
-        - [NVIDIA/nccl](https://github.com/NVIDIA/nccl) <img src="https://img.shields.io/github/stars/NVIDIA/nccl?style=social"/> : Optimized primitives for collective multi-GPU communication.
-
-        - [wilicc/gpu-burn](https://github.com/wilicc/gpu-burn) <img src="https://img.shields.io/github/stars/wilicc/gpu-burn?style=social"/> : Multi-GPU CUDA stress test.
-
-
-    - #### Robotics Frameworks
-      ##### 机器人框架
-
-
-        - [Cupoch](https://github.com/neka-nat/cupoch) <img src="https://img.shields.io/github/stars/neka-nat/cupoch?style=social"/> : Robotics with GPU computing.
-
-
-
-    - #### Scientific Computing Frameworks
+    - #### Scientific Computing Framework
       ##### 科学计算框架
 
         - [cuBLAS](https://developer.nvidia.com/cublas) : Basic Linear Algebra on NVIDIA GPUs. NVIDIA cuBLAS is a GPU-accelerated library for accelerating AI and HPC applications. It includes several API extensions for providing drop-in industry standard BLAS APIs and GEMM APIs with support for fusions that are highly optimized for NVIDIA GPUs. The cuBLAS library also contains extensions for batched operations, execution across multiple GPUs, and mixed- and low-precision execution with additional tuning for the best performance.
@@ -365,7 +350,7 @@
 
 
 
-    - #### Machine Learning Frameworks
+    - #### Machine Learning Framework
 
         - [cuDNN](https://developer.nvidia.com/cudnn) : The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for [deep neural networks](https://developer.nvidia.com/deep-learning). cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, attention, matmul, pooling, and normalization.
 
@@ -540,6 +525,31 @@
         - ##### LLM Inference Benchmark
 
             - [ninehills/llm-inference-benchmark](https://github.com/ninehills/llm-inference-benchmark) <img src="https://img.shields.io/github/stars/ninehills/llm-inference-benchmark?style=social"/> : LLM Inference benchmark.
+
+
+    - #### Multi-GPU Framework
+      ##### 多GPU框架
+
+        - [NVIDIA/nccl](https://github.com/NVIDIA/nccl) <img src="https://img.shields.io/github/stars/NVIDIA/nccl?style=social"/> : Optimized primitives for collective multi-GPU communication.
+
+        - [wilicc/gpu-burn](https://github.com/wilicc/gpu-burn) <img src="https://img.shields.io/github/stars/wilicc/gpu-burn?style=social"/> : Multi-GPU CUDA stress test.
+
+
+
+    - #### Robotics Framework
+      ##### 机器人框架
+
+
+        - [Cupoch](https://github.com/neka-nat/cupoch) <img src="https://img.shields.io/github/stars/neka-nat/cupoch?style=social"/> : Robotics with GPU computing.
+
+
+
+    - #### Web3 Framework
+      ##### Web3框架
+
+        - [Tachyon](https://github.com/kroma-network/tachyon) <img src="https://img.shields.io/github/stars/kroma-network/tachyon?style=social"/> : Modular ZK(Zero Knowledge) backend accelerated by GPU.
+
+        - [ICICLE](https://github.com/ingonyama-zk/icicle) <img src="https://img.shields.io/github/stars/ingonyama-zk/icicle?style=social"/> : ICICLE is a library for ZK acceleration using CUDA-enabled GPUs.
 
 
 
@@ -1195,6 +1205,17 @@
 
     - 微信公众号「NVIDIA英伟达」
         - [2023-10-27，现已公开发布！欢迎使用 NVIDIA TensorRT-LLM 优化大语言模型推理](https://mp.weixin.qq.com/s/QaSbvyAmI6XXtr0y6W4LNQ)
+    - 微信公众号「AI不止算法」
+        - [2024-04-09，全网首篇从tensorRT-LLM MoE CUDA kernel角度理解Mixtral-8x7b的推理加速及展望](https://mp.weixin.qq.com/s/3PsVUba-kTLIHK_s0RA2ow)
+    - 微信公众号「大猿搬砖简记」
+        - [2024-03-11，图解Mixtral 8 * 7b推理优化原理与源码实现](https://mp.weixin.qq.com/s/jjZQ4A-rvk_e-woKLlNTVQ)
+        - [2024-03-29，图解大模型计算加速系列之：vLLM核心技术PagedAttention原理](https://mp.weixin.qq.com/s/-5EniAmFf1v9RdxI5-CwiQ)
+        - [2024-04-06，图解大模型计算加速系列：vLLM源码解析1，整体架构](https://mp.weixin.qq.com/s/r_t6_zMvPT7za82MZX4oRA)
+        - [2024-04-12，图解大模型计算加速系列：vLLM源码解析2，调度器策略(Scheduler)](https://mp.weixin.qq.com/s/UCdqQUM_9a36uXkO36wpSg)
+        - [2024-04-19，从啥也不会到Cuda GEMM优化](https://mp.weixin.qq.com/s/YLrsu1KAhzG8gFQ2L-TaMA)
+    - 微信公众号「oldpan博客」
+        - [2024-03-20，TensorRT-LLM初探（二）简析了结构，用的更明白](https://mp.weixin.qq.com/s/Jk-AK84sllBbkDDpvkv62w)
+        - [2024-04-15，[深入分析CUTLASS系列] 0x01 cutlass 源码分析(零) --- 软件架构(附ncu性能分析方法)](https://mp.weixin.qq.com/s/sLvZoWgILuRnvyiimMgeaQ)
     - 微信公众号「DeepPrompting」
         - [2024-01-09，LLM推理库TensorRT-LLM深入分析](https://mp.weixin.qq.com/s/hI6maWtVGHnTi0uGPj6tmA)
     - 微信公众号「澎峰科技PerfXLab」
@@ -1207,13 +1228,6 @@
         - [2024-02-28，熬了几个通宵，我写了份CUDA新手入门代码](https://mp.weixin.qq.com/s/UXIzQ9SYhtN4q8VfzNXDqA)
     - 微信公众号「Meet DSA」
         - [2024-03-29，大语言模型硬件加速器综述](https://mp.weixin.qq.com/s/rtq8e_zVUWLc-vkT4V0qzQ)
-    - 微信公众号「AI不止算法」
-        - [2024-04-09，全网首篇从tensorRT-LLM MoE CUDA kernel角度理解Mixtral-8x7b的推理加速及展望](https://mp.weixin.qq.com/s/3PsVUba-kTLIHK_s0RA2ow)
-    - 微信公众号「大猿搬砖简记」
-        - [2024-03-11，图解Mixtral 8 * 7b推理优化原理与源码实现](https://mp.weixin.qq.com/s/jjZQ4A-rvk_e-woKLlNTVQ)
-        - [2024-03-29，图解大模型计算加速系列之：vLLM核心技术PagedAttention原理](https://mp.weixin.qq.com/s/-5EniAmFf1v9RdxI5-CwiQ)
-        - [2024-04-06，图解大模型计算加速系列：vLLM源码解析1，整体架构](https://mp.weixin.qq.com/s/r_t6_zMvPT7za82MZX4oRA)
-        - [2024-04-12，图解大模型计算加速系列：vLLM源码解析2，调度器策略(Scheduler)](https://mp.weixin.qq.com/s/UCdqQUM_9a36uXkO36wpSg)
     - 微信公众号「AI寒武纪」
         - [2024-04-10，【太疯狂了】用 1000 行纯 C 代码实现 GPT-2 训练：Andrej Karpathy重塑LLM训练格局](https://mp.weixin.qq.com/s/hNKWVqepbega6YPf48b8ag)
         - [2024-04-14，【全球黑客加持】Karpathy 1000行纯C训练大模型速度已追平PyTorch](https://mp.weixin.qq.com/s/VvwDhMmq80yN-Wcb8s3aiQ)
@@ -1229,10 +1243,34 @@
         - [2024-04-09，1000行C语言搓出GPT-2！AI大神Karpathy新项目刚上线就狂揽2.5k星](https://mp.weixin.qq.com/s/_W2GlbO8nAfpLPtRtQJ-yw)
     - 微信公众号「GitHubStore」
         - [2024-04-11，llm.c：实现了大语言模型(LLM)训练的简单、纯 C/CUDA 版本，无需 PyTorch 或 cPython](https://mp.weixin.qq.com/s/7cHYDBHqs8ClkijI-Fya9A)
-    - 微信公众号「oldpan博客」
-        - [2024-03-20，TensorRT-LLM初探（二）简析了结构，用的更明白](https://mp.weixin.qq.com/s/Jk-AK84sllBbkDDpvkv62w)
+    - 微信公众号「云云众生s」
+        - [2024-04-17，NVIDIA希望有更多支持CUDA的编程语言](https://mp.weixin.qq.com/s/jABUruiJwjhGstbPG3U2Fw)
+    - 微信公众号「手写AI」
+        - [2022-10-16，TensorRT/CUDA超全代码资料仓库](https://mp.weixin.qq.com/s/WXZXVlAohZn2YJ490pddpQ)
+    - 微信公众号「美团技术团队」
+        - [2024-04-11，美团外卖基于GPU的向量检索系统实践](https://mp.weixin.qq.com/s/pPl-anyQnFNFkmBlVsrBpA)
+    - 微信公众号「GiantPandaCV」
+        - [2024-04-20，Tensor Cores 使用介绍](https://mp.weixin.qq.com/s/Mr-yR_YW5nNKV2dSrr5U2Q)
+    - 微信公众号「GitHubFun网站」
+        - [2024-04-20，英伟达开源人工智能代数库：线性代数子例程的 CUDA 模板](https://mp.weixin.qq.com/s/CwTnG89-tc1HaapvbU0D6g)
+
+
 
 ## Videos
 
   - bilibili「权双」
     - [2023-07-14，CUDA编程基础入门系列（持续更新）](https://www.bilibili.com/video/BV1sM4y1x7of)
+
+
+
+## Jobs
+
+  - 微信公众号「高通内推王」
+    - [2023-12-21，[英伟达内推] 英*达面试过程全面剖析](https://mp.weixin.qq.com/s/GoZKlLfdoGN9ngbe_PzG7w)
+    - [2024-04-16，一份英伟达的offer，一年能到手多少钱](https://mp.weixin.qq.com/s/dZAG-AXbZkGi9CJQZMhCNA)
+  - 微信公众号「美团技术团队」
+    - [2024-03-21，美团自动配送车2024春季招聘 | 社招专场](https://mp.weixin.qq.com/s/2e0g-7fD8Fbp65LbjGdVnA)
+  - 微信公众号「大模型生态圈」
+    - [2024-04-21，推理部署工程师面试题库](https://mp.weixin.qq.com/s/q46vKFPlQhcN7LyZNTRhXA)
+  - [知乎「Tim在路上​」](https://www.zhihu.com/people/lao-zhang-cao-mei-yuan)
+    - [2024-01-18，国内大厂GPU CUDA高频面试问题汇总（含部分答案）](https://zhuanlan.zhihu.com/p/678602674)
