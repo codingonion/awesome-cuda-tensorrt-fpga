@@ -17,10 +17,10 @@
   - [Frameworks](#frameworks)
     - [CUDA and TensorRT Framework](#cuda-and-tensorrt-framework)
         - [GPU Interface](#gpu-interface)
-            - [CPP Implementation](#cpp-implementation)
-            - [Python Implementation](#python-implementation)
-            - [Rust Implementation](#rust-implementation)
-            - [Julia Implementation](#julia-implementation)
+            - [CPP Version](#cpp-version)
+            - [Python version](#python-version)
+            - [Rust Version](#rust-version)
+            - [Julia Version](#julia-version)
         - [Scientific Computing Framework](#scientific-computing-framework)
         - [Machine Learning Framework](#machine-learning-framework)
         - [AI Inference Framework](#ai-inference-framework)
@@ -75,7 +75,7 @@
     - [FPGA Blogs](#fpga-blogs)
     - [CUDA and TensorRT Blogs](#cuda-and-tensorrt-blogs)
   - [Videos](#videos)
-  - [Jobs](#jobs)
+  - [Jobs and Interview](#jobs-and-interview)
 
 
 
@@ -245,14 +245,14 @@
     - #### GPU Interface
       ##### GPU接口
 
-        - ##### CPP Implementation
+        - ##### CPP Version
 
             - [CCCL](https://github.com/NVIDIA/cccl) <img src="https://img.shields.io/github/stars/NVIDIA/cccl?style=social"/> : CUDA C++ Core Libraries. The concept for the CUDA C++ Core Libraries (CCCL) grew organically out of the Thrust, CUB, and libcudacxx projects that were developed independently over the years with a similar goal: to provide high-quality, high-performance, and easy-to-use C++ abstractions for CUDA developers.
 
             - [HIP](https://github.com/ROCm/HIP) <img src="https://img.shields.io/github/stars/ROCm/HIP?style=social"/> : HIP: C++ Heterogeneous-Compute Interface for Portability. HIP is a C++ Runtime API and Kernel Language that allows developers to create portable applications for AMD and NVIDIA GPUs from single source code. [rocmdocs.amd.com/projects/HIP/](https://rocmdocs.amd.com/projects/HIP/)
 
 
-        - ##### Python Implementation
+        - ##### Python Version
 
             - [CuPy](https://github.com/cupy/cupy) <img src="https://img.shields.io/github/stars/cupy/cupy?style=social"/> : CuPy : NumPy & SciPy for GPU. [cupy.dev](https://cupy.dev/)
 
@@ -260,31 +260,27 @@
 
 
 
-        - ##### Rust Implementation
+        - ##### Rust Version
 
             - [jessfraz/advent-of-cuda](https://github.com/jessfraz/advent-of-cuda) <img src="https://img.shields.io/github/stars/jessfraz/advent-of-cuda?style=social"/> : Doing advent of code with CUDA and rust.
 
-            - [Rust-CUDA](https://github.com/Rust-GPU/Rust-CUDA) <img src="https://img.shields.io/github/stars/Rust-GPU/Rust-CUDA?style=social"/> : Ecosystem of libraries and tools for writing and executing fast GPU code fully in Rust.
-
             - [ZLUDA](https://github.com/vosen/ZLUDA) <img src="https://img.shields.io/github/stars/vosen/ZLUDA?style=social"/> : CUDA on AMD GPUs.
+
+            - [Rust-CUDA](https://github.com/Rust-GPU/Rust-CUDA) <img src="https://img.shields.io/github/stars/Rust-GPU/Rust-CUDA?style=social"/> : Ecosystem of libraries and tools for writing and executing fast GPU code fully in Rust.
 
             - [cudarc](https://github.com/coreylowman/cudarc) <img src="https://img.shields.io/github/stars/coreylowman/cudarc?style=social"/> : cudarc: minimal and safe api over the cuda toolkit.
 
-            - [custos](https://github.com/elftausend/custos) <img src="https://img.shields.io/github/stars/elftausend/custos?style=social"/> : A minimal OpenCL, CUDA, WGPU and host CPU array manipulation engine / framework.
+            - [bindgen_cuda](https://github.com/Narsil/bindgen_cuda) <img src="https://img.shields.io/github/stars/Narsil/bindgen_cuda?style=social"/> : Similar crate than [bindgen](https://github.com/rust-lang/rust-bindgen) in philosophy. It will help create automatic bindgen to cuda kernels source files and make them easier to use directly from Rust.
 
-            - [krnl](https://github.com/charles-r-earp/krnl) <img src="https://img.shields.io/github/stars/charles-r-earp/krnl?style=social"/> : Safe, portable, high performance compute (GPGPU) kernels.
+            - [cuda-driver](https://github.com/YdrMaster/cuda-driver) <img src="https://img.shields.io/github/stars/YdrMaster/cuda-driver?style=social"/> : 基于 CUDA Driver API 的 cuda 运行时环境。
 
             - [async-cuda](https://github.com/oddity-ai/async-cuda) <img src="https://img.shields.io/github/stars/oddity-ai/async-cuda?style=social"/> : Asynchronous CUDA for Rust.
 
             - [async-tensorrt](https://github.com/oddity-ai/async-tensorrt) <img src="https://img.shields.io/github/stars/oddity-ai/async-tensorrt?style=social"/> : Asynchronous TensorRT for Rust.
 
-            - [Narsil/bindgen_cuda](https://github.com/Narsil/bindgen_cuda) <img src="https://img.shields.io/github/stars/Narsil/bindgen_cuda?style=social"/> : Similar crate than [bindgen](https://github.com/rust-lang/rust-bindgen) in philosophy. It will help create automatic bindgen to cuda kernels source files and make them easier to use directly from Rust.
+            - [krnl](https://github.com/charles-r-earp/krnl) <img src="https://img.shields.io/github/stars/charles-r-earp/krnl?style=social"/> : Safe, portable, high performance compute (GPGPU) kernels.
 
-            - [Jafagervik/cruda](https://github.com/Jafagervik/cruda) <img src="https://img.shields.io/github/stars/Jafagervik/cruda?style=social"/> : CRUDA - Writing rust with cuda.
-
-            - [lennyerik/cutransform](https://github.com/lennyerik/cutransform) <img src="https://img.shields.io/github/stars/lennyerik/cutransform?style=social"/> : CUDA kernels in any language supported by LLVM.
-
-            - [cjordan/hip-sys](https://github.com/cjordan/hip-sys) <img src="https://img.shields.io/github/stars/cjordan/hip-sys?style=social"/> : Rust bindings for HIP.
+            - [custos](https://github.com/elftausend/custos) <img src="https://img.shields.io/github/stars/elftausend/custos?style=social"/> : A minimal OpenCL, CUDA, WGPU and host CPU array manipulation engine / framework.
 
             - [spinorml/nvlib](https://github.com/spinorml/nvlib) <img src="https://img.shields.io/github/stars/spinorml/nvlib?style=social"/> : Rust interoperability with NVIDIA CUDA NVRTC and Driver.
 
@@ -320,12 +316,29 @@
 
             - [chichieinstein/rustycuda](https://github.com/chichieinstein/rustycuda) <img src="https://img.shields.io/github/stars/chichieinstein/rustycuda?style=social"/> : Convenience functions for generic handling of CUDA resources on the Rust side.
 
+            - [Jafagervik/cruda](https://github.com/Jafagervik/cruda) <img src="https://img.shields.io/github/stars/Jafagervik/cruda?style=social"/> : CRUDA - Writing rust with cuda.
+
+            - [lennyerik/cutransform](https://github.com/lennyerik/cutransform) <img src="https://img.shields.io/github/stars/lennyerik/cutransform?style=social"/> : CUDA kernels in any language supported by LLVM.
+
+           - [cjordan/hip-sys](https://github.com/cjordan/hip-sys) <img src="https://img.shields.io/github/stars/cjordan/hip-sys?style=social"/> : Rust bindings for HIP.
+
+            - [rust-gpu](https://github.com/EmbarkStudios/rust-gpu) <img src="https://img.shields.io/github/stars/EmbarkStudios/rust-gpu?style=social"/> : 🐉 Making Rust a first-class language and ecosystem for GPU shaders 🚧 [shader.rs](https://shader.rs/)
+
+            - [wgpu](https://github.com/gfx-rs/wgpu) <img src="https://img.shields.io/github/stars/gfx-rs/wgpu?style=social"/> : Safe and portable GPU abstraction in Rust, implementing WebGPU API. [wgpu.rs](https://wgpu.rs/)
+
+            - [Vulkano](https://github.com/vulkano-rs/vulkano) <img src="https://img.shields.io/github/stars/vulkano-rs/vulkano?style=social"/> : Safe and rich Rust wrapper around the Vulkan API. Vulkano is a Rust wrapper around [the Vulkan graphics API](https://www.vulkan.org/). It follows the Rust philosophy, which is that as long as you don't use unsafe code you shouldn't be able to trigger any undefined behavior. In the case of Vulkan, this means that non-unsafe code should always conform to valid API usage.
+
+            - [Ash](https://github.com/ash-rs/ash) <img src="https://img.shields.io/github/stars/ash-rs/ash?style=social"/> : Vulkan bindings for Rust.
+
+            - [ocl](https://github.com/cogciprocate/ocl) <img src="https://img.shields.io/github/stars/cogciprocate/ocl?style=social"/> : OpenCL for Rust.
+
+            - [opencl3](https://github.com/kenba/opencl3) <img src="https://img.shields.io/github/stars/kenba/opencl3?style=social"/> : A Rust implementation of the Khronos [OpenCL 3.0](https://registry.khronos.org/OpenCL/) API.
 
 
 
 
 
-        - ##### Julia Implementation
+        - ##### Julia Version
 
             - [CUDA.jl](https://github.com/JuliaGPU/CUDA.jl) <img src="https://img.shields.io/github/stars/JuliaGPU/CUDA.jl?style=social"/> : CUDA programming in Julia. [juliagpu.org/](https://juliagpu.org/)
 
@@ -405,11 +418,19 @@
 
             - [davidar/eigenGPT](https://github.com/davidar/eigenGPT) <img src="https://img.shields.io/github/stars/davidar/eigenGPT?style=social"/> : Minimal C++ implementation of GPT2.
 
+            - [Tlntin/Qwen-TensorRT-LLM](https://github.com/Tlntin/Qwen-TensorRT-LLM) <img src="https://img.shields.io/github/stars/Tlntin/Qwen-TensorRT-LLM?style=social"/> : 使用TRT-LLM完成对Qwen-7B-Chat实现推理加速。
+
+            - [FeiGeChuanShu/trt2023](https://github.com/FeiGeChuanShu/trt2023) <img src="https://img.shields.io/github/stars/FeiGeChuanShu/trt2023?style=social"/> : NVIDIA TensorRT Hackathon 2023复赛选题：通义千问Qwen-7B用TensorRT-LLM模型搭建及优化。
+
+            - [TRT2022/trtllm-llama](https://github.com/TRT2022/trtllm-llama) <img src="https://img.shields.io/github/stars/TRT2022/trtllm-llama?style=social"/> : ☢️ TensorRT 2023复赛——基于TensorRT-LLM的Llama模型推断加速优化。
+
+
 
         - ##### Mojo Implementation
 
-            - [llama2.🔥](https://github.com/tairov/llama2.mojo) <img src="https://img.shields.io/github/stars/tairov/llama2.mojo?style=social"/> : Inference Llama 2 in one file of pure 🔥
+            - [llama2.mojo](https://github.com/tairov/llama2.mojo) <img src="https://img.shields.io/github/stars/tairov/llama2.mojo?style=social"/> : Inference Llama 2 in one file of pure 🔥
 
+            - [dorjeduck/llm.mojo](https://github.com/dorjeduck/llm.mojo) <img src="https://img.shields.io/github/stars/dorjeduck/llm.mojo?style=social"/> : port of Andrjey Karpathy's llm.c to Mojo.
 
 
         - ##### Rust Implementation
@@ -1214,10 +1235,17 @@
         - [2024-04-12，图解大模型计算加速系列：vLLM源码解析2，调度器策略(Scheduler)](https://mp.weixin.qq.com/s/UCdqQUM_9a36uXkO36wpSg)
         - [2024-04-19，从啥也不会到Cuda GEMM优化](https://mp.weixin.qq.com/s/YLrsu1KAhzG8gFQ2L-TaMA)
     - 微信公众号「oldpan博客」
+        - [2024-03-19，NVIDIA大语言模型落地的全流程解析](https://mp.weixin.qq.com/s/-sNnuDvkucUB_9K9RBfDEw)
         - [2024-03-20，TensorRT-LLM初探（二）简析了结构，用的更明白](https://mp.weixin.qq.com/s/Jk-AK84sllBbkDDpvkv62w)
+        - [2024-03-21，高性能 LLM 推理框架的设计与实现](https://mp.weixin.qq.com/s/zys9KvQWbbdRHkOyhzZqUw)
         - [2024-04-15，[深入分析CUTLASS系列] 0x01 cutlass 源码分析(零) --- 软件架构(附ncu性能分析方法)](https://mp.weixin.qq.com/s/sLvZoWgILuRnvyiimMgeaQ)
+        - [2024-04-21，搞懂 NVIDIA GPU 性能指标 很容易弄混的一个概念： Utilization vs Saturation](https://mp.weixin.qq.com/s/6PcF2RwGdm1G0JllGSS3jw)
+        - [2024-04-22，快速提升性能，如何更好地使用GPU（上）](https://mp.weixin.qq.com/s/dUj058iBzYm-J2vlS5DfNA)
     - 微信公众号「DeepPrompting」
         - [2024-01-09，LLM推理库TensorRT-LLM深入分析](https://mp.weixin.qq.com/s/hI6maWtVGHnTi0uGPj6tmA)
+        - [2024-04-10，一文上手 Tensor Core指令级编程](https://mp.weixin.qq.com/s/Gi8ExdfErUkfWu3oRyKvBw)
+        - [2024-04-25，动手实现混合精度矩阵乘CUDA内核](https://mp.weixin.qq.com/s/JGYFOsPvUSNMQWjR1gKOOg)
+        - [2024-04-26，一文了解CUDA矩阵乘编程](https://mp.weixin.qq.com/s/vG7d7-tAt-mXOgRSb-jZRA)
     - 微信公众号「澎峰科技PerfXLab」
         - [2023-05-24，深入浅出GPU优化系列：GEMM优化（一）](https://mp.weixin.qq.com/s/4aPW_93IV54lzs5JRn0JiA)
         - [2023-06-02，深入浅出GPU优化系列：GEMM优化（二）](https://mp.weixin.qq.com/s/1q5ocZ7vDDsvew3HNo_9Vg)
@@ -1253,6 +1281,22 @@
         - [2024-04-20，Tensor Cores 使用介绍](https://mp.weixin.qq.com/s/Mr-yR_YW5nNKV2dSrr5U2Q)
     - 微信公众号「GitHubFun网站」
         - [2024-04-20，英伟达开源人工智能代数库：线性代数子例程的 CUDA 模板](https://mp.weixin.qq.com/s/CwTnG89-tc1HaapvbU0D6g)
+    - 微信公众号「大模型生态圈」
+        - [2024-03-18，LLM百倍推理加速之量化篇](https://mp.weixin.qq.com/s/jbpVBZLZ0AkrP7bacY5mKw)
+        - [2024-03-22，LLM推理：GPU资源和推理框架选择](https://mp.weixin.qq.com/s/qUaLOXZmk1xyGHGKX4ZtpQ)
+        - [2024-03-27，LLM 推理加速方式汇总](https://mp.weixin.qq.com/s/IlaQw6Ut25NNoTZkxs63Vg)
+        - [2024-04-26，LLM推理量化：FP8 VS INT8](https://mp.weixin.qq.com/s/e7QZC1qNkETXNXZpcD9cRg)
+    - 微信公众号「苏哲管理咨询」
+        - [2024-02-25，英伟达（NVIDA）崛起不平凡之路--老黄全球AI芯片新帝国简史](https://mp.weixin.qq.com/s/4c8FtVeJmNlXL6akj5lj8A)
+    - 微信公众号「后来遇见AI」
+        - [2024-04-08，【CUDA编程】CUDA 统一内存](https://mp.weixin.qq.com/s/DynVo_Mu7pUQxRLHH3ii9Q)
+    - 微信公众号「江大白」
+        - [2024-04-13，CUDA模型部署实战，自己写的CUDA矩阵乘法能优化到多快？](https://mp.weixin.qq.com/s/ySfGSHyLrW5cRG17-B14rQ)
+        - [2024-04-22，CUDA编程中，Tensor Cores的详细拆解](https://mp.weixin.qq.com/s/uDWOg9-pRudcvroZADsIbg)
+    - 微信公众号「Tim在路上」
+        - [2024-03-25，理解NVIDIA GPU 性能：利用率与饱和度](https://mp.weixin.qq.com/s/4_An51JuRGWTU0dLgZYHpQ)
+    - 微信公众号「潮观世界」
+        - [2024-04-19，AI 推理：CPU 的崛起](https://mp.weixin.qq.com/s/rpdCT1fj2E3GKknfygAWRw)
 
 
 
@@ -1263,11 +1307,12 @@
 
 
 
-## Jobs
+## Jobs and Interview
 
   - 微信公众号「高通内推王」
     - [2023-12-21，[英伟达内推] 英*达面试过程全面剖析](https://mp.weixin.qq.com/s/GoZKlLfdoGN9ngbe_PzG7w)
     - [2024-04-16，一份英伟达的offer，一年能到手多少钱](https://mp.weixin.qq.com/s/dZAG-AXbZkGi9CJQZMhCNA)
+    - [2024-04-22，英伟达大力建设智能驾驶中心，扩大招聘，欢迎来内推](https://mp.weixin.qq.com/s/I17_SxwUFWJnyc2gkLobjQ)
   - 微信公众号「美团技术团队」
     - [2024-03-21，美团自动配送车2024春季招聘 | 社招专场](https://mp.weixin.qq.com/s/2e0g-7fD8Fbp65LbjGdVnA)
   - 微信公众号「大模型生态圈」
