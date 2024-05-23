@@ -34,7 +34,7 @@
             - [LLM Inference Benchmark](#llm-inference-benchmark)
         - [Multi-GPU Framework](#multi-gpu-framework)
         - [Robotics Framework](#robotics-framework)
-        - [Web3 Framework](#web3-framework)
+        - [ZKP and Web3 Framework](#zkp-and-web3-framework)
     - [HDL and FPGA Framework](#hdl-and-fpga-framework)
         - [C HDL](#c-hdl)
         - [Scala HDL](#scala-hdl)
@@ -72,7 +72,7 @@
         - [Motor Control](#motor-control)
         - [Fixed-point](#fixed-point)
   - [Blogs](#blogs)
-    - [FPGA Blogs](#fpga-blogs)
+    - [HDL and FPGA Blogs](#hdl-and-fpga-blogs)
     - [CUDA and TensorRT Blogs](#cuda-and-tensorrt-blogs)
   - [Videos](#videos)
   - [Jobs and Interview](#jobs-and-interview)
@@ -565,10 +565,14 @@
 
 
 
-    - #### Web3 Framework
-      ##### Web3框架
+    - #### ZKP and Web3 Framework
+      ##### 零知识证明和Web3框架
 
         - [Tachyon](https://github.com/kroma-network/tachyon) <img src="https://img.shields.io/github/stars/kroma-network/tachyon?style=social"/> : Modular ZK(Zero Knowledge) backend accelerated by GPU.
+
+        - [Blitzar](https://github.com/spaceandtimelabs/blitzar) <img src="https://img.shields.io/github/stars/spaceandtimelabs/blitzar?style=social"/> : Zero-knowledge proof acceleration with GPUs for C++ and Rust. [www.spaceandtime.io/](https://www.spaceandtime.io/)
+
+        - [blitzar-rs](https://github.com/spaceandtimelabs/blitzar-rs) <img src="https://img.shields.io/github/stars/spaceandtimelabs/blitzar-rs?style=social"/> : High-Level Rust wrapper for the blitzar-sys crate. [www.spaceandtime.io/](https://www.spaceandtime.io/)
 
         - [ICICLE](https://github.com/ingonyama-zk/icicle) <img src="https://img.shields.io/github/stars/ingonyama-zk/icicle?style=social"/> : ICICLE is a library for ZK acceleration using CUDA-enabled GPUs.
 
@@ -581,11 +585,7 @@
 
 
 
-
-
-
-
-  - ### HDL and FPGA Frameworks
+  - ### HDL and FPGA Framework
 
     - #### C HDL
 
@@ -1040,7 +1040,7 @@
 
 ## Blogs
 
-  - ### FPGA Blogs
+  - ### HDL and FPGA Blogs
 
     - [bilibili「老石谈芯」| 微信公众号「老石谈芯」](https://space.bilibili.com/612932327)
         - [2020-06-27，FPGA芯片在人工智能时代的独特优势](https://www.bilibili.com/video/BV1EK4y1s7wP/?spm_id_from=333.788)
@@ -1226,6 +1226,8 @@
 
     - 微信公众号「NVIDIA英伟达」
         - [2023-10-27，现已公开发布！欢迎使用 NVIDIA TensorRT-LLM 优化大语言模型推理](https://mp.weixin.qq.com/s/QaSbvyAmI6XXtr0y6W4LNQ)
+    - 微信公众号「NVIDIA英伟达企业解决方案」
+        - [2024-04-24，NVIDIA GPU 架构下的 FP8 训练与推理](https://mp.weixin.qq.com/s/KV4XC9WT-8mfpmEzflIuvw)
     - 微信公众号「AI不止算法」
         - [2024-04-09，全网首篇从tensorRT-LLM MoE CUDA kernel角度理解Mixtral-8x7b的推理加速及展望](https://mp.weixin.qq.com/s/3PsVUba-kTLIHK_s0RA2ow)
     - 微信公众号「大猿搬砖简记」
@@ -1265,6 +1267,7 @@
         - [2024-04-09，“真男人就应该用 C 编程”！用 1000 行 C 代码手搓了一个大模型，Mac 即可运行，特斯拉前AI总监爆火科普 LLM](https://mp.weixin.qq.com/s/qb0dhdFnXZS4LeW2mvG6fg)
     - 微信公众号「机器之心」
         - [2024-04-09，纯C语言手搓GPT-2，前OpenAI、特斯拉高管新项目火了](https://mp.weixin.qq.com/s/YMuq9Jo9Nibl1QFbLNxazg)
+        - [2024-05-20，首个GPU高级语言，大规模并行就像写Python，已获8500 Star](https://mp.weixin.qq.com/s/dC7Z5Rk05sM7ND7bYUsrZA)
     - 微信公众号「新智元」
         - [2023-09-10，H100推理飙升8倍！英伟达官宣开源TensorRT-LLM，支持10+模型](https://mp.weixin.qq.com/s/xcNQBG69XkS6mOstzqROAw)
         - [2024-04-07，Llama提速500%！谷歌美女程序员手搓矩阵乘法内核](https://mp.weixin.qq.com/s/2ROw_Tmmh4NHf8WOiwnJLg)
@@ -1286,11 +1289,15 @@
         - [2024-03-22，LLM推理：GPU资源和推理框架选择](https://mp.weixin.qq.com/s/qUaLOXZmk1xyGHGKX4ZtpQ)
         - [2024-03-27，LLM 推理加速方式汇总](https://mp.weixin.qq.com/s/IlaQw6Ut25NNoTZkxs63Vg)
         - [2024-04-26，LLM推理量化：FP8 VS INT8](https://mp.weixin.qq.com/s/e7QZC1qNkETXNXZpcD9cRg)
+        - [2024-04-28，Nvidia GPU池化-远程GPU](https://mp.weixin.qq.com/s/tFdtYy5L_0V85OTvlPVK0A)
     - 微信公众号「苏哲管理咨询」
         - [2024-02-25，英伟达（NVIDA）崛起不平凡之路--老黄全球AI芯片新帝国简史](https://mp.weixin.qq.com/s/4c8FtVeJmNlXL6akj5lj8A)
     - 微信公众号「后来遇见AI」
+        - [2022-08-08，【机器学习】K均值聚类算法原理](https://mp.weixin.qq.com/s/o9bl1M9G1cOSYzzTZ3eYxw)
         - [2024-04-08，【CUDA编程】CUDA 统一内存](https://mp.weixin.qq.com/s/DynVo_Mu7pUQxRLHH3ii9Q)
+
     - 微信公众号「江大白」
+        - [2024-04-12，深入浅出，PyTorch模型int8量化原理拆解](https://mp.weixin.qq.com/s/j2QS3LdudrrlyZYQkVrl5Q)
         - [2024-04-13，CUDA模型部署实战，自己写的CUDA矩阵乘法能优化到多快？](https://mp.weixin.qq.com/s/ySfGSHyLrW5cRG17-B14rQ)
         - [2024-04-22，CUDA编程中，Tensor Cores的详细拆解](https://mp.weixin.qq.com/s/uDWOg9-pRudcvroZADsIbg)
     - 微信公众号「Tim在路上」
