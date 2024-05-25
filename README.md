@@ -146,6 +146,14 @@
 
     - [HeKun-NVIDIA/CUDA-Programming-Guide-in-Chinese](https://github.com/HeKun-NVIDIA/CUDA-Programming-Guide-in-Chinese) <img src="https://img.shields.io/github/stars/HeKun-NVIDIA/CUDA-Programming-Guide-in-Chinese?style=social"/> : This is a Chinese translation of the CUDA programming guide. 本项目为 CUDA C Programming Guide 的中文翻译版。
 
+    - [codingonion/cuda-beginner-course-cpp-version](https://github.com/codingonion/cuda-beginner-course-cpp-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-cpp-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(C++语言版)】配套代码。
+
+    - [codingonion/cuda-beginner-course-python-version](https://github.com/codingonion/cuda-beginner-course-python-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-python-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(Python语言版)】配套代码。
+
+    - [codingonion/cuda-beginner-course-rust-version](https://github.com/codingonion/cuda-beginner-course-rust-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-rust-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(Rust语言版)】配套代码。
+
+    - [ulrichstern/cuda-convnet](https://github.com/ulrichstern/cuda-convnet) <img src="https://img.shields.io/github/stars/ulrichstern/cuda-convnet?style=social"/> : Alex Krizhevsky's original code from Google Code. "微信公众号「人工智能大讲堂」《[找到了AlexNet当年的源代码，没用框架，从零手撸CUDA/C++](https://mp.weixin.qq.com/s/plxXG8y5QlxSionyjyPXqw)》"。
+
     - [brucefan1983/CUDA-Programming](https://github.com/brucefan1983/CUDA-Programming) <img src="https://img.shields.io/github/stars/brucefan1983/CUDA-Programming?style=social"/> : Sample codes for my CUDA programming book.
 
     - [YouQixiaowu/CUDA-Programming-with-Python](https://github.com/YouQixiaowu/CUDA-Programming-with-Python) <img src="https://img.shields.io/github/stars/YouQixiaowu/CUDA-Programming-with-Python?style=social"/> :  关于书籍CUDA Programming使用了pycuda模块的Python版本的示例代码。
@@ -194,6 +202,8 @@
 
     - [yao-jiashu/KernelCodeGen](https://github.com/yao-jiashu/KernelCodeGen) <img src="https://img.shields.io/github/stars/yao-jiashu/KernelCodeGen?style=social"/> : GEMM/Conv2d CUDA/HIP kernel code generation using MLIR.
 
+    - [caiwanxianhust/ClusteringByCUDA](https://github.com/caiwanxianhust/ClusteringByCUDA) <img src="https://img.shields.io/github/stars/caiwanxianhust/ClusteringByCUDA?style=social"/> : 使用 CUDA C++ 实现的一系列聚类算法。
+
     - [PacktPublishing/Learn-CUDA-Programming](https://github.com/PacktPublishing/Learn-CUDA-Programming) <img src="https://img.shields.io/github/stars/PacktPublishing/Learn-CUDA-Programming?style=social"/> : Learn CUDA Programming, published by Packt.
 
     - [PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA](https://github.com/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA) <img src="https://img.shields.io/github/stars/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA?style=social"/> : Hands-On GPU Accelerated Computer Vision with OpenCV and CUDA, published by Packt.
@@ -201,11 +211,9 @@
     - [PacktPublishing/Hands-On-GPU-Programming-with-Python-and-CUDA](https://github.com/PacktPublishing/Hands-On-GPU-Programming-with-Python-and-CUDA) <img src="https://img.shields.io/github/stars/PacktPublishing/Hands-On-GPU-Programming-with-Python-and-CUDA?style=social"/> : Hands-On GPU Programming with Python and CUDA, published by Packt.
 
 
-    - [codingonion/cuda-beginner-course-cpp-version](https://github.com/codingonion/cuda-beginner-course-cpp-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-cpp-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(C++语言版)】配套代码。
 
-    - [codingonion/cuda-beginner-course-rust-version](https://github.com/codingonion/cuda-beginner-course-rust-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-rust-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(Rust语言版)】配套代码。
 
-    - [codingonion/cuda-beginner-course-python-version](https://github.com/codingonion/cuda-beginner-course-python-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-python-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(Python语言版)】配套代码。
+
 
 
 
@@ -1196,6 +1204,7 @@
         - [2023-04-17，我国人工智能硬件产业现状分析](https://mp.weixin.qq.com/s/IdYCjJgxCrP_cTVff6zuzw)
     - 微信公众号「机器之心」
         - [2022-07-04，超低功耗AI芯片：神经脉冲只需同类神经网络能量的0.02%](https://mp.weixin.qq.com/s/aVV4JyxblCYD6PWPsnnGuQ)
+        - [2024-05-12，从零开始手搓GPU，照着英伟达CUDA来，只用两个星期](https://mp.weixin.qq.com/s/gDWQGs4MyVWqsmONdEqvpQ)
     - 微信公众号「半导体行业观察」
         - [2023-02-09，“没有什么能阻止RISC-V”](https://mp.weixin.qq.com/s/zBKU4z5Vh4zKUigUNq-bHg)
         - [2023-03-24，对标EDA三巨头，思尔芯推出国产硬件仿真系统](https://mp.weixin.qq.com/s/kU2bKAnloDhpYB1eMy_lGw)
@@ -1229,7 +1238,10 @@
     - 微信公众号「NVIDIA英伟达企业解决方案」
         - [2024-04-24，NVIDIA GPU 架构下的 FP8 训练与推理](https://mp.weixin.qq.com/s/KV4XC9WT-8mfpmEzflIuvw)
     - 微信公众号「AI不止算法」
+        - [2024-03-20，C++模板推导再炫技：统一AI各个device各个kernel的调用和分发](https://mp.weixin.qq.com/s/r1XFocdVrfuArDWzpBYdAg)
         - [2024-04-09，全网首篇从tensorRT-LLM MoE CUDA kernel角度理解Mixtral-8x7b的推理加速及展望](https://mp.weixin.qq.com/s/3PsVUba-kTLIHK_s0RA2ow)
+        - [2024-05-10，全面探究GPU SM内CUDA core-Tensor core能否同时计算？(上篇)](https://mp.weixin.qq.com/s/YASkRa12Ecr6fLtupP1WHg)
+        - [2024-05-16，全面探究GPU SM内CUDA core-Tensor core能否同时计算？(下篇)](https://mp.weixin.qq.com/s/Jcu_HkAMiMXYagBjNhSCZQ)
     - 微信公众号「大猿搬砖简记」
         - [2024-03-11，图解Mixtral 8 * 7b推理优化原理与源码实现](https://mp.weixin.qq.com/s/jjZQ4A-rvk_e-woKLlNTVQ)
         - [2024-03-29，图解大模型计算加速系列之：vLLM核心技术PagedAttention原理](https://mp.weixin.qq.com/s/-5EniAmFf1v9RdxI5-CwiQ)
@@ -1243,6 +1255,8 @@
         - [2024-04-15，[深入分析CUTLASS系列] 0x01 cutlass 源码分析(零) --- 软件架构(附ncu性能分析方法)](https://mp.weixin.qq.com/s/sLvZoWgILuRnvyiimMgeaQ)
         - [2024-04-21，搞懂 NVIDIA GPU 性能指标 很容易弄混的一个概念： Utilization vs Saturation](https://mp.weixin.qq.com/s/6PcF2RwGdm1G0JllGSS3jw)
         - [2024-04-22，快速提升性能，如何更好地使用GPU（上）](https://mp.weixin.qq.com/s/dUj058iBzYm-J2vlS5DfNA)
+        - [2024-05-14，快速提升性能，如何更好地使用GPU（下）](https://mp.weixin.qq.com/s/NPcCHlLjBZeUiAhQOHX5qA)
+        - [2024-05-22，大模型精度（FP16，FP32，BF16）详解与实践](https://mp.weixin.qq.com/s/95CUl1bGN-fSvmAbH0O-DA)
     - 微信公众号「DeepPrompting」
         - [2024-01-09，LLM推理库TensorRT-LLM深入分析](https://mp.weixin.qq.com/s/hI6maWtVGHnTi0uGPj6tmA)
         - [2024-04-10，一文上手 Tensor Core指令级编程](https://mp.weixin.qq.com/s/Gi8ExdfErUkfWu3oRyKvBw)
@@ -1256,6 +1270,7 @@
         - [2017-12-07，【推荐】CUTLASS：CUDA C++高性能线性代数运算库](https://mp.weixin.qq.com/s/EDmbQ4y3nnkYiHhl3HG_HA)
     - 微信公众号「自动驾驶之心」
         - [2024-02-28，熬了几个通宵，我写了份CUDA新手入门代码](https://mp.weixin.qq.com/s/UXIzQ9SYhtN4q8VfzNXDqA)
+        - [2024-05-13，Shared memory！CUDA数据拷贝速度拉满~](https://mp.weixin.qq.com/s/P5CdO3QCSQKuj3nWjS_2yA)
     - 微信公众号「Meet DSA」
         - [2024-03-29，大语言模型硬件加速器综述](https://mp.weixin.qq.com/s/rtq8e_zVUWLc-vkT4V0qzQ)
     - 微信公众号「AI寒武纪」
@@ -1290,21 +1305,46 @@
         - [2024-03-27，LLM 推理加速方式汇总](https://mp.weixin.qq.com/s/IlaQw6Ut25NNoTZkxs63Vg)
         - [2024-04-26，LLM推理量化：FP8 VS INT8](https://mp.weixin.qq.com/s/e7QZC1qNkETXNXZpcD9cRg)
         - [2024-04-28，Nvidia GPU池化-远程GPU](https://mp.weixin.qq.com/s/tFdtYy5L_0V85OTvlPVK0A)
+        - [2024-05-01，Nvidia Tensor Core 初探](https://mp.weixin.qq.com/s/VAuk2WdFqiW4ujV0A3-8HA)
+        - [2024-05-24，Pytorch 显存管理机制与显存占用分析方法](https://mp.weixin.qq.com/s/QufR1esHGc3qkwgW6sAM-Q)
     - 微信公众号「苏哲管理咨询」
         - [2024-02-25，英伟达（NVIDA）崛起不平凡之路--老黄全球AI芯片新帝国简史](https://mp.weixin.qq.com/s/4c8FtVeJmNlXL6akj5lj8A)
     - 微信公众号「后来遇见AI」
         - [2022-08-08，【机器学习】K均值聚类算法原理](https://mp.weixin.qq.com/s/o9bl1M9G1cOSYzzTZ3eYxw)
+        - [2022-08-11，【CUDA编程】基于CUDA的Kmeans算法的简单实现](https://mp.weixin.qq.com/s/2PfocGm9l84l5Jj1vYF5bg)
+        - [2024-01-23，【CUDA编程】基于 CUDA 的 Kmeans 算法的进阶实现（一）](hhttps://mp.weixin.qq.com/s/5Kr8ltlzy1nL7aeGrETYvA)
+        - [2024-01-24，【CUDA编程】基于 CUDA 的 Kmeans 算法的进阶实现（二）](https://mp.weixin.qq.com/s/xPN5cupqt4B-JrX6KUNJrw)
         - [2024-04-08，【CUDA编程】CUDA 统一内存](https://mp.weixin.qq.com/s/DynVo_Mu7pUQxRLHH3ii9Q)
-
     - 微信公众号「江大白」
         - [2024-04-12，深入浅出，PyTorch模型int8量化原理拆解](https://mp.weixin.qq.com/s/j2QS3LdudrrlyZYQkVrl5Q)
         - [2024-04-13，CUDA模型部署实战，自己写的CUDA矩阵乘法能优化到多快？](https://mp.weixin.qq.com/s/ySfGSHyLrW5cRG17-B14rQ)
         - [2024-04-22，CUDA编程中，Tensor Cores的详细拆解](https://mp.weixin.qq.com/s/uDWOg9-pRudcvroZADsIbg)
     - 微信公众号「Tim在路上」
         - [2024-03-25，理解NVIDIA GPU 性能：利用率与饱和度](https://mp.weixin.qq.com/s/4_An51JuRGWTU0dLgZYHpQ)
+        - [2024-04-30，加速矩阵计算：英伟达TensorCore架构演进与原理最全解析](https://mp.weixin.qq.com/s/dwT1Fl6F4V1MvWGgt1ac0Q)
+        - [2024-05-15，揭秘 Tensor Core 底层：如何让AI计算速度飞跃](https://mp.weixin.qq.com/s/UL7CLWp3cmdUgGILr4iVzA)
     - 微信公众号「潮观世界」
         - [2024-04-19，AI 推理：CPU 的崛起](https://mp.weixin.qq.com/s/rpdCT1fj2E3GKknfygAWRw)
-
+    - 微信公众号「DeepDriving」
+        - [2023-07-21，AI模型部署 | TensorRT模型INT8量化的Python实现](https://mp.weixin.qq.com/s/IQTCUs8CcfgHxJCyV6cm3w)
+    - 微信公众号「GPUS开发者」
+        - [2024-05-07，基于NVIDIA Jetson AGX Orin和Audio2Face做一个AI聊天数字人](https://mp.weixin.qq.com/s/7z0uU58IxwoXcI4bZ3z68g)
+        - [2024-05-14，CUDA与OpenCL：并行计算革命的冲突与未来](https://mp.weixin.qq.com/s/h0nBvuV8nnfsbX1mjXAXVw)
+    - 微信公众号「人工智能大讲堂」
+        - [2024-05-11，我找到了AlexNet当年的源代码，没用框架，从零手撸CUDA/C++](https://mp.weixin.qq.com/s/plxXG8y5QlxSionyjyPXqw)
+    - 微信公众号「未来科技潮」
+        - [2024-04-10，针对大型语言模型的高效CUDA优化可实现性能翻倍提升](https://mp.weixin.qq.com/s/FtJpRrfnFACM37p9fQv3cw)
+    - 微信公众号「AI道上」
+        - [2024-04-19，英伟达坚持了16年的CUDA，到底是什么](https://mp.weixin.qq.com/s/nsBxZe_UXdvwfQ7DmCFuQg)
+    - 微信公众号「科技译览」
+        - [2024-04-09，100行C代码重塑深度学习：用纯C/CUDA打造的极简LLM训练](https://mp.weixin.qq.com/s/Th3RX3_FS5git0qJEcu4ZA)
+    - 微信公众号「小白学视觉」
+        - [2024-03-29，图像预处理库CV-CUDA开源了，打破预处理瓶颈，提升推理吞吐量20多倍](https://mp.weixin.qq.com/s/Zn4yI1xu2TuXZkJCzQt_yA)
+    - 微信公众号「卡巴斯」
+        - [2024-02-26，GPU（一）GPU简介](https://mp.weixin.qq.com/s/V4mMjzQ261kk6qmyH-STUQ)
+    - 微信公众号「码砖杂役」
+        - [2024-04-03，【CUDA】一文讲清流与并发，讲不清我重讲](https://mp.weixin.qq.com/s/-eJOdG7A-bvum9GFkiNIoQ)
+        - [2024-05-02，【【CUDA】一文讲清共享内存和常量内存](https://mp.weixin.qq.com/s/qcynKSz2zQQQ2Ylk_sSorw)
 
 
 ## Videos
