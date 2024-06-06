@@ -223,6 +223,10 @@
 
     - [NVIDIA TensorRT Docs](https://docs.nvidia.com/deeplearning/tensorrt/) : NVIDIA Deep Learning TensorRT Documentation.
 
+    - [TensorRT](https://github.com/NVIDIA/TensorRT) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT?style=social"/> : NVIDIA® TensorRT™ is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT. [developer.nvidia.com/tensorrt](https://developer.nvidia.com/tensorrt)
+
+    - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social"/> : TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT-LLM also contains components to create Python and C++ runtimes that execute those TensorRT engines. [nvidia.github.io/TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM)
+
     - [HeKun-NVIDIA/TensorRT-Developer_Guide_in_Chinese](https://github.com/HeKun-NVIDIA/TensorRT-Developer_Guide_in_Chinese) <img src="https://img.shields.io/github/stars/HeKun-NVIDIA/TensorRT-Developer_Guide_in_Chinese?style=social"/> : 本项目是NVIDIA TensorRT的中文版开发手册， 有个人翻译并添加自己的理解。
 
     - [kalfazed/tensorrt_starter](https://github.com/kalfazed/tensorrt_starter) <img src="https://img.shields.io/github/stars/kalfazed/tensorrt_starter?style=social"/> : This repository give a guidline to learn CUDA and TensorRT from the beginning.
@@ -271,6 +275,10 @@
         - ##### Rust Version
 
             - [jessfraz/advent-of-cuda](https://github.com/jessfraz/advent-of-cuda) <img src="https://img.shields.io/github/stars/jessfraz/advent-of-cuda?style=social"/> : Doing advent of code with CUDA and rust.
+
+            - [Bend](https://github.com/HigherOrderCO/Bend) <img src="https://img.shields.io/github/stars/HigherOrderCO/Bend?style=social"/> : A massively parallel, high-level programming language.[higherorderco.com](https://higherorderco.com/)
+
+            - [HVM](https://github.com/HigherOrderCO/HVM) <img src="https://img.shields.io/github/stars/HigherOrderCO/HVM?style=social"/> : A massively parallel, optimal functional runtime in Rust.[higherorderco.com](https://higherorderco.com/)
 
             - [ZLUDA](https://github.com/vosen/ZLUDA) <img src="https://img.shields.io/github/stars/vosen/ZLUDA?style=social"/> : CUDA on AMD GPUs.
 
@@ -658,6 +666,16 @@
 
     - #### Object Detection
 
+        - [laugh12321/TensorRT-YOLO](https://github.com/laugh12321/TensorRT-YOLO) <img src="https://img.shields.io/github/stars/laugh12321/TensorRT-YOLO?style=social"/> : 🚀 TensorRT-YOLO: Support YOLOv3, YOLOv5, YOLOv6, YOLOv7, YOLOv8, YOLOv9, YOLOv10, PP-YOLOE using TensorRT acceleration with EfficientNMS! TensorRT-YOLO 是一个支持 YOLOv3、YOLOv5、YOLOv6、YOLOv7、YOLOv8、YOLOv9、YOLOv10、PP-YOLOE 和 PP-YOLOE+ 的推理加速项目，使用 NVIDIA TensorRT 进行优化。项目不仅集成了 EfficientNMS TensorRT 插件以增强后处理效果，还使用了 CUDA 核函数来加速前处理过程。TensorRT-YOLO 提供了 C++ 和 Python 推理的支持，旨在提供快速而优化的目标检测解决方案。
+
+        - [Melody-Zhou/tensorRT_Pro-YOLOv8](https://github.com/Melody-Zhou/tensorRT_Pro-YOLOv8) <img src="https://img.shields.io/github/stars/Melody-Zhou/tensorRT_Pro-YOLOv8?style=social"/> : This repository is based on shouxieai/tensorRT_Pro, with adjustments to support YOLOv8.
+
+        - [kalfazed/tensorrt_starter](https://github.com/kalfazed/tensorrt_starter) <img src="https://img.shields.io/github/stars/kalfazed/tensorrt_starter?style=social"/> : This repository give a guidline to learn CUDA and TensorRT from the beginning.
+
+        - [shouxieai/tensorRT_Pro](https://github.com/shouxieai/tensorRT_Pro) <img src="https://img.shields.io/github/stars/shouxieai/tensorRT_Pro?style=social"/> : C++ library based on tensorrt integration.
+
+        - [shouxieai/infer](https://github.com/shouxieai/infer) <img src="https://img.shields.io/github/stars/shouxieai/infer?style=social"/> : A new tensorrt integrate. Easy to integrate many tasks.
+
         - [triple-Mu/YOLOv8-TensorRT](https://github.com/triple-Mu/YOLOv8-TensorRT) <img src="https://img.shields.io/github/stars/triple-Mu/YOLOv8-TensorRT?style=social"/> : YOLOv8 using TensorRT accelerate !
 
         - [FeiYull/TensorRT-Alpha](https://github.com/FeiYull/TensorRT-Alpha) <img src="https://img.shields.io/github/stars/NVIDIA-AI-IOT/torch2trt?style=social"/> : 🔥🔥🔥TensorRT for YOLOv8、YOLOv8-Pose、YOLOv8-Seg、YOLOv8-Cls、YOLOv7、YOLOv6、YOLOv5、YOLONAS......🚀🚀🚀CUDA IS ALL YOU NEED.🍎🍎🍎
@@ -672,7 +690,7 @@
 
         - [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx) <img src="https://img.shields.io/github/stars/wang-xinyu/tensorrtx?style=social"/> : TensorRTx aims to implement popular deep learning networks with tensorrt network definition APIs.
 
-        - [shouxieai/tensorRT_Pro](https://github.com/shouxieai/tensorRT_Pro) <img src="https://img.shields.io/github/stars/shouxieai/tensorRT_Pro?style=social"/> : C++ library based on tensorrt integration.
+
 
         - [DefTruth/lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit) <img src="https://img.shields.io/github/stars/DefTruth/lite.ai.toolkit?style=social"/> : 🛠 A lite C++ toolkit of awesome AI models with ONNXRuntime, NCNN, MNN and TNN. YOLOX, YOLOP, YOLOv6, YOLOR, MODNet, YOLOX, YOLOv7, YOLOv5. MNN, NCNN, TNN, ONNXRuntime. “🛠Lite.Ai.ToolKit: 一个轻量级的C++ AI模型工具箱，用户友好（还行吧），开箱即用。已经包括 100+ 流行的开源模型。这是一个根据个人兴趣整理的C++工具箱，, 涵盖目标检测、人脸检测、人脸识别、语义分割、抠图等领域。”
 
@@ -1190,6 +1208,7 @@
     - 微信公众号「芯东西」
         - [2023-04-07，雷军投资的第一家芯片公司，上市了！](https://mp.weixin.qq.com/s/eLwBoiFlzTnn7rsdtQaIxQ)
         - [2023-04-10，把GPT时代引擎拉满，国产AI大算力芯片换道狂飙](https://mp.weixin.qq.com/s/IBsY3Mwdnj4U-9hI4weqzA)
+        - [2023-06-06，全球第二，英伟达市值突破3万亿！人均贡献1亿美金，黄仁勋用1年走完库克3.4年的路](https://mp.weixin.qq.com/s/D-r8JCV-MrNSH04yFKUg4g)
     - 微信公众号「IT服务圈儿」
         - [2023-04-09，摩尔定律之父94岁仙逝！悼念一代半导体先驱、英特尔创始人戈登·摩尔](https://mp.weixin.qq.com/s/Xn_HE9O3nBLtNIk3zZfqrQ)
     - 微信公众号「电子工程专辑」
@@ -1235,6 +1254,7 @@
 
     - 微信公众号「NVIDIA英伟达」
         - [2023-10-27，现已公开发布！欢迎使用 NVIDIA TensorRT-LLM 优化大语言模型推理](https://mp.weixin.qq.com/s/QaSbvyAmI6XXtr0y6W4LNQ)
+        - [2024-06-03，COMPUTEX 2024 | “加速一切”，NVIDIA CEO 黄仁勋在 COMPUTEX 开幕前发表主题演讲](https://mp.weixin.qq.com/s/usHo79-ssQiX0Rt5dvJ-sQ)
     - 微信公众号「NVIDIA英伟达企业解决方案」
         - [2024-04-24，NVIDIA GPU 架构下的 FP8 训练与推理](https://mp.weixin.qq.com/s/KV4XC9WT-8mfpmEzflIuvw)
     - 微信公众号「AI不止算法」
@@ -1307,6 +1327,7 @@
         - [2024-04-28，Nvidia GPU池化-远程GPU](https://mp.weixin.qq.com/s/tFdtYy5L_0V85OTvlPVK0A)
         - [2024-05-01，Nvidia Tensor Core 初探](https://mp.weixin.qq.com/s/VAuk2WdFqiW4ujV0A3-8HA)
         - [2024-05-24，Pytorch 显存管理机制与显存占用分析方法](https://mp.weixin.qq.com/s/QufR1esHGc3qkwgW6sAM-Q)
+        - [2024-06-02，[LLM推理优化][万字]TensorRT-LLM部署调优-指北](https://mp.weixin.qq.com/s/PGOleShWEjHCPpw1wuV7SA)
     - 微信公众号「苏哲管理咨询」
         - [2024-02-25，英伟达（NVIDA）崛起不平凡之路--老黄全球AI芯片新帝国简史](https://mp.weixin.qq.com/s/4c8FtVeJmNlXL6akj5lj8A)
     - 微信公众号「后来遇见AI」
@@ -1323,6 +1344,7 @@
         - [2024-03-25，理解NVIDIA GPU 性能：利用率与饱和度](https://mp.weixin.qq.com/s/4_An51JuRGWTU0dLgZYHpQ)
         - [2024-04-30，加速矩阵计算：英伟达TensorCore架构演进与原理最全解析](https://mp.weixin.qq.com/s/dwT1Fl6F4V1MvWGgt1ac0Q)
         - [2024-05-15，揭秘 Tensor Core 底层：如何让AI计算速度飞跃](https://mp.weixin.qq.com/s/UL7CLWp3cmdUgGILr4iVzA)
+        - [2024-05-27，浅析GPU分布式通信技术-PCle、NVLink、NVSwitch](https://mp.weixin.qq.com/s/ZllBWNqBwiY-Cb0UFIkwVg)
     - 微信公众号「潮观世界」
         - [2024-04-19，AI 推理：CPU 的崛起](https://mp.weixin.qq.com/s/rpdCT1fj2E3GKknfygAWRw)
     - 微信公众号「DeepDriving」
@@ -1345,6 +1367,18 @@
     - 微信公众号「码砖杂役」
         - [2024-04-03，【CUDA】一文讲清流与并发，讲不清我重讲](https://mp.weixin.qq.com/s/-eJOdG7A-bvum9GFkiNIoQ)
         - [2024-05-02，【【CUDA】一文讲清共享内存和常量内存](https://mp.weixin.qq.com/s/qcynKSz2zQQQ2Ylk_sSorw)
+    - 微信公众号「星想法」
+        - [2022-09-19，零知识证明 - FPGA vs. GPU](https://mp.weixin.qq.com/s/SjoeQHboe2RI4EJKfpMjKw)
+    - 微信公众号「太极图形」
+        - [2022-06-16，减少重复造轮子，帮你解放生产力的「小矩阵功能」来啦！](https://mp.weixin.qq.com/s/5PGXUxcUMSfsbVbrennUFA)
+    - 微信公众号「GiantPandaCV」
+        - [2024-05-27，[并行训练]Context Parallelism的原理与代码浅析](https://mp.weixin.qq.com/s/vXWUUtAQNkBUpgDIJV8C0w)
+    - 微信公众号「硅星人Pro」
+        - [2024-06-03，黄仁勋：英伟达将一年推一款全新芯片，没有英伟达就没有今天AI的一切（附最新演讲全文）](https://mp.weixin.qq.com/s/Uc6heL537JNn63JXsDSVOg)
+    - 微信公众号「3D视觉之心」
+        - [2024-06-01，传统SLAM使用CUDA加速是否有比较大的优势呢？](https://mp.weixin.qq.com/s/5SlVcsDJd8VvABo6wCe4AQ)
+    - 微信公众号「中国企业家杂志」
+        - [2024-06-01，黄仁勋：不喜欢裁员，我宁愿“折磨”他们｜中企荐读](https://mp.weixin.qq.com/s/8jIgJPsWuCnj92wa61llSw)
 
 
 ## Videos
@@ -1364,5 +1398,9 @@
     - [2024-03-21，美团自动配送车2024春季招聘 | 社招专场](https://mp.weixin.qq.com/s/2e0g-7fD8Fbp65LbjGdVnA)
   - 微信公众号「大模型生态圈」
     - [2024-04-21，推理部署工程师面试题库](https://mp.weixin.qq.com/s/q46vKFPlQhcN7LyZNTRhXA)
+  - 微信公众号「神仙外企」
+    - [2024-05-14，半导体外企 | NVIDIA英伟达招聘！13薪，月薪20-80k，含非技术岗，内部定制礼品，22周全薪产假](https://mp.weixin.qq.com/s/VhrKxKGDqCiQmXLisX88yA)
+  - 微信公众号「Cver」
+    - [2024-06-01，英伟达算法岗面试，问的贼细！](https://mp.weixin.qq.com/s/dwXC572U9u5SAmJPnyjHXA)
   - [知乎「Tim在路上​」](https://www.zhihu.com/people/lao-zhang-cao-mei-yuan)
     - [2024-01-18，国内大厂GPU CUDA高频面试问题汇总（含部分答案）](https://zhuanlan.zhihu.com/p/678602674)
