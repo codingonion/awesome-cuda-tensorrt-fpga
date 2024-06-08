@@ -668,13 +668,17 @@
 
         - [laugh12321/TensorRT-YOLO](https://github.com/laugh12321/TensorRT-YOLO) <img src="https://img.shields.io/github/stars/laugh12321/TensorRT-YOLO?style=social"/> : 🚀 TensorRT-YOLO: Support YOLOv3, YOLOv5, YOLOv6, YOLOv7, YOLOv8, YOLOv9, YOLOv10, PP-YOLOE using TensorRT acceleration with EfficientNMS! TensorRT-YOLO 是一个支持 YOLOv3、YOLOv5、YOLOv6、YOLOv7、YOLOv8、YOLOv9、YOLOv10、PP-YOLOE 和 PP-YOLOE+ 的推理加速项目，使用 NVIDIA TensorRT 进行优化。项目不仅集成了 EfficientNMS TensorRT 插件以增强后处理效果，还使用了 CUDA 核函数来加速前处理过程。TensorRT-YOLO 提供了 C++ 和 Python 推理的支持，旨在提供快速而优化的目标检测解决方案。
 
-        - [Melody-Zhou/tensorRT_Pro-YOLOv8](https://github.com/Melody-Zhou/tensorRT_Pro-YOLOv8) <img src="https://img.shields.io/github/stars/Melody-Zhou/tensorRT_Pro-YOLOv8?style=social"/> : This repository is based on shouxieai/tensorRT_Pro, with adjustments to support YOLOv8.
+        - [l-sf/Linfer](https://github.com/l-sf/Linfer) <img src="https://img.shields.io/github/stars/l-sf/Linfer?style=social"/> : 基于TensorRT的C++高性能推理库，Yolov10, YoloPv2，Yolov5/7/X/8，RT-DETR，单目标跟踪OSTrack、LightTrack。
 
-        - [kalfazed/tensorrt_starter](https://github.com/kalfazed/tensorrt_starter) <img src="https://img.shields.io/github/stars/kalfazed/tensorrt_starter?style=social"/> : This repository give a guidline to learn CUDA and TensorRT from the beginning.
+        - [Melody-Zhou/tensorRT_Pro-YOLOv8](https://github.com/Melody-Zhou/tensorRT_Pro-YOLOv8) <img src="https://img.shields.io/github/stars/Melody-Zhou/tensorRT_Pro-YOLOv8?style=social"/> : This repository is based on [shouxieai/tensorRT_Pro](https://github.com/shouxieai/tensorRT_Pro), with adjustments to support YOLOv8. 目前已支持 YOLOv8、YOLOv8-Cls、YOLOv8-Seg、YOLOv8-OBB、YOLOv8-Pose、RT-DETR、ByteTrack、YOLOv9、YOLOv10、RTMO 高性能推理！！！🚀🚀🚀
 
         - [shouxieai/tensorRT_Pro](https://github.com/shouxieai/tensorRT_Pro) <img src="https://img.shields.io/github/stars/shouxieai/tensorRT_Pro?style=social"/> : C++ library based on tensorrt integration.
 
         - [shouxieai/infer](https://github.com/shouxieai/infer) <img src="https://img.shields.io/github/stars/shouxieai/infer?style=social"/> : A new tensorrt integrate. Easy to integrate many tasks.
+
+        - [kalfazed/tensorrt_starter](https://github.com/kalfazed/tensorrt_starter) <img src="https://img.shields.io/github/stars/kalfazed/tensorrt_starter?style=social"/> : This repository give a guidline to learn CUDA and TensorRT from the beginning.
+
+        - [hamdiboukamcha/yolov10-tensorrt](https://github.com/hamdiboukamcha/yolov10-tensorrt) <img src="https://img.shields.io/github/stars/hamdiboukamcha/yolov10-tensorrt?style=social"/> : YOLOv10 C++ TensorRT : Real-Time End-to-End Object Detection.
 
         - [triple-Mu/YOLOv8-TensorRT](https://github.com/triple-Mu/YOLOv8-TensorRT) <img src="https://img.shields.io/github/stars/triple-Mu/YOLOv8-TensorRT?style=social"/> : YOLOv8 using TensorRT accelerate !
 
@@ -689,7 +693,6 @@
         - [Linaom1214/TensorRT-For-YOLO-Series](https://github.com/Linaom1214/TensorRT-For-YOLO-Series) <img src="https://img.shields.io/github/stars/Linaom1214/TensorRT-For-YOLO-Series?style=social"/> : YOLO Series TensorRT Python/C++. tensorrt for yolo series (YOLOv8, YOLOv7, YOLOv6....), nms plugin support.
 
         - [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx) <img src="https://img.shields.io/github/stars/wang-xinyu/tensorrtx?style=social"/> : TensorRTx aims to implement popular deep learning networks with tensorrt network definition APIs.
-
 
 
         - [DefTruth/lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit) <img src="https://img.shields.io/github/stars/DefTruth/lite.ai.toolkit?style=social"/> : 🛠 A lite C++ toolkit of awesome AI models with ONNXRuntime, NCNN, MNN and TNN. YOLOX, YOLOP, YOLOv6, YOLOR, MODNet, YOLOX, YOLOv7, YOLOv5. MNN, NCNN, TNN, ONNXRuntime. “🛠Lite.Ai.ToolKit: 一个轻量级的C++ AI模型工具箱，用户友好（还行吧），开箱即用。已经包括 100+ 流行的开源模型。这是一个根据个人兴趣整理的C++工具箱，, 涵盖目标检测、人脸检测、人脸识别、语义分割、抠图等领域。”
@@ -753,6 +756,8 @@
         - [MadaoFY/yolov5_TensorRT_inference](https://github.com/MadaoFY/yolov5_TensorRT_inference) <img src="https://img.shields.io/github/stars/MadaoFY/yolov5_TensorRT_inference?style=social"/> : 记录yolov5的TensorRT量化及推理代码，经实测可运行于Jetson平台。
 
         - [ervgan/yolov5_tensorrt_inference](https://github.com/ervgan/yolov5_tensorrt_inference) <img src="https://img.shields.io/github/stars/ervgan/yolov5_tensorrt_inference?style=social"/> : TensorRT cpp inference for Yolov5 model. Supports yolov5 v1.0, v2.0, v3.0, v3.1, v4.0, v5.0, v6.0, v6.2, v7.0.
+
+        - [AlbinZhu/easy-trt](https://github.com/AlbinZhu/easy-trt) <img src="https://img.shields.io/github/stars/AlbinZhu/easy-trt?style=social"/> : TensorRT for YOLOv10 with CUDA.
 
 
 
@@ -1379,6 +1384,9 @@
         - [2024-06-01，传统SLAM使用CUDA加速是否有比较大的优势呢？](https://mp.weixin.qq.com/s/5SlVcsDJd8VvABo6wCe4AQ)
     - 微信公众号「中国企业家杂志」
         - [2024-06-01，黄仁勋：不喜欢裁员，我宁愿“折磨”他们｜中企荐读](https://mp.weixin.qq.com/s/8jIgJPsWuCnj92wa61llSw)
+    - 微信公众号「CSharp与边缘模型部署」
+        - [2024-06-04，使用 TensorRT C++ API 调用GPU加速部署 YOLOv10 实现 500FPS 推理速度——快到飞起！！](https://mp.weixin.qq.com/s/yijeZtkRhbQxuSE1AsyUhA)
+
 
 
 ## Videos
