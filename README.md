@@ -138,7 +138,11 @@
 
   - ### CUDA Learning
 
-    - [NVIDIA CUDA Docs](https://docs.nvidia.com/cuda/) : CUDA Toolkit Documentation.
+    - [NVIDIA CUDA Toolkit Documentation](https://docs.nvidia.com/cuda/) : CUDA Toolkit Documentation.
+
+    - [NVIDIA CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html) : CUDA C++ Programming Guide.
+
+    - [NVIDIA CUDA C++ Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html) : CUDA C++ Best Practices Guide.
 
     - [NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-samples?style=social"/> : Samples for CUDA Developers which demonstrates features in CUDA Toolkit.
 
@@ -146,13 +150,9 @@
 
     - [HeKun-NVIDIA/CUDA-Programming-Guide-in-Chinese](https://github.com/HeKun-NVIDIA/CUDA-Programming-Guide-in-Chinese) <img src="https://img.shields.io/github/stars/HeKun-NVIDIA/CUDA-Programming-Guide-in-Chinese?style=social"/> : This is a Chinese translation of the CUDA programming guide. 本项目为 CUDA C Programming Guide 的中文翻译版。
 
-    - [codingonion/cuda-beginner-course-cpp-version](https://github.com/codingonion/cuda-beginner-course-cpp-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-cpp-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(C++语言版)】配套代码。
+    - [cuda-mode/lectures](https://github.com/cuda-mode/lectures) <img src="https://img.shields.io/github/stars/cuda-mode/lectures?style=social"/> : Material for cuda-mode lectures.
 
-    - [codingonion/cuda-beginner-course-python-version](https://github.com/codingonion/cuda-beginner-course-python-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-python-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(Python语言版)】配套代码。
-
-    - [codingonion/cuda-beginner-course-rust-version](https://github.com/codingonion/cuda-beginner-course-rust-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-rust-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(Rust语言版)】配套代码。
-
-    - [ulrichstern/cuda-convnet](https://github.com/ulrichstern/cuda-convnet) <img src="https://img.shields.io/github/stars/ulrichstern/cuda-convnet?style=social"/> : Alex Krizhevsky's original code from Google Code. "微信公众号「人工智能大讲堂」《[找到了AlexNet当年的源代码，没用框架，从零手撸CUDA/C++](https://mp.weixin.qq.com/s/plxXG8y5QlxSionyjyPXqw)》"。
+    - [cuda-mode/resource-stream](https://github.com/cuda-mode/resource-stream) <img src="https://img.shields.io/github/stars/cuda-mode/resource-stream?style=social"/> : CUDA related news and material links.
 
     - [brucefan1983/CUDA-Programming](https://github.com/brucefan1983/CUDA-Programming) <img src="https://img.shields.io/github/stars/brucefan1983/CUDA-Programming?style=social"/> : Sample codes for my CUDA programming book.
 
@@ -204,13 +204,19 @@
 
     - [caiwanxianhust/ClusteringByCUDA](https://github.com/caiwanxianhust/ClusteringByCUDA) <img src="https://img.shields.io/github/stars/caiwanxianhust/ClusteringByCUDA?style=social"/> : 使用 CUDA C++ 实现的一系列聚类算法。
 
+    - [ulrichstern/cuda-convnet](https://github.com/ulrichstern/cuda-convnet) <img src="https://img.shields.io/github/stars/ulrichstern/cuda-convnet?style=social"/> : Alex Krizhevsky's original code from Google Code. "微信公众号「人工智能大讲堂」《[找到了AlexNet当年的源代码，没用框架，从零手撸CUDA/C++](https://mp.weixin.qq.com/s/plxXG8y5QlxSionyjyPXqw)》"。
+
     - [PacktPublishing/Learn-CUDA-Programming](https://github.com/PacktPublishing/Learn-CUDA-Programming) <img src="https://img.shields.io/github/stars/PacktPublishing/Learn-CUDA-Programming?style=social"/> : Learn CUDA Programming, published by Packt.
 
     - [PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA](https://github.com/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA) <img src="https://img.shields.io/github/stars/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA?style=social"/> : Hands-On GPU Accelerated Computer Vision with OpenCV and CUDA, published by Packt.
 
     - [PacktPublishing/Hands-On-GPU-Programming-with-Python-and-CUDA](https://github.com/PacktPublishing/Hands-On-GPU-Programming-with-Python-and-CUDA) <img src="https://img.shields.io/github/stars/PacktPublishing/Hands-On-GPU-Programming-with-Python-and-CUDA?style=social"/> : Hands-On GPU Programming with Python and CUDA, published by Packt.
 
+    - [codingonion/cuda-beginner-course-cpp-version](https://github.com/codingonion/cuda-beginner-course-cpp-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-cpp-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(C++语言版)】配套代码。
 
+    - [codingonion/cuda-beginner-course-python-version](https://github.com/codingonion/cuda-beginner-course-python-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-python-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(Python语言版)】配套代码。
+
+    - [codingonion/cuda-beginner-course-rust-version](https://github.com/codingonion/cuda-beginner-course-rust-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-rust-version?style=social"/> : bilibili视频【CUDA 12.1 并行编程入门(Rust语言版)】配套代码。
 
 
 
