@@ -166,17 +166,19 @@
 
     - [DefTruth/cuda-learn-note](https://github.com/DefTruth/cuda-learn-note) <img src="https://img.shields.io/github/stars/DefTruth/cuda-learn-note?style=social"/> : 🎉CUDA 笔记 / 高频面试题汇总 / C++笔记，个人笔记，更新随缘: sgemm、sgemv、warp reduce、block reduce、dot product、elementwise、softmax、layernorm、rmsnorm、hist etc.
 
-    - [Liu-xiandong/How_to_optimize_in_GPU](https://github.com/Liu-xiandong/How_to_optimize_in_GPU) <img src="https://img.shields.io/github/stars/Liu-xiandong/How_to_optimize_in_GPU?style=social"/> : This is a series of GPU optimization topics. Here we will introduce how to optimize the CUDA kernel in detail. I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit.
+    - [PaddleJitLab/CUDATutorial](https://github.com/PaddleJitLab/CUDATutorial) <img src="https://img.shields.io/github/stars/PaddleJitLab/CUDATutorial?style=social"/> : A self-learning tutorail for CUDA High Performance Programing. 从零开始学习 CUDA 高性能编程。
 
     - [BBuf/how-to-optim-algorithm-in-cuda](https://github.com/BBuf/how-to-optim-algorithm-in-cuda) <img src="https://img.shields.io/github/stars/BBuf/how-to-optim-algorithm-in-cuda?style=social"/> : This is a series of GPU optimization topics. Here we will introduce how to optimize the CUDA kernel in detail. I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit.
 
-    - [enp1s0/ozIMMU](https://github.com/enp1s0/ozIMMU) <img src="https://img.shields.io/github/stars/enp1s0/ozIMMU?style=social"/> : FP64 equivalent GEMM via Int8 Tensor Cores using the Ozaki scheme. [arxiv.org/abs/2306.11975](https://arxiv.org/abs/2306.11975)
+    - [Liu-xiandong/How_to_optimize_in_GPU](https://github.com/Liu-xiandong/How_to_optimize_in_GPU) <img src="https://img.shields.io/github/stars/Liu-xiandong/How_to_optimize_in_GPU?style=social"/> : This is a series of GPU optimization topics. Here we will introduce how to optimize the CUDA kernel in detail. I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit.
 
     - [Bruce-Lee-LY/matrix_multiply](https://github.com/Bruce-Lee-LY/matrix_multiply) <img src="https://img.shields.io/github/stars/Bruce-Lee-LY/matrix_multiply?style=social"/> : Several common methods of matrix multiplication are implemented on CPU and Nvidia GPU using C++11 and CUDA.
 
     - [Bruce-Lee-LY/cuda_hgemm](https://github.com/Bruce-Lee-LY/cuda_hgemm) <img src="https://img.shields.io/github/stars/Bruce-Lee-LY/cuda_hgemm?style=social"/> : Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction.
 
     - [Bruce-Lee-LY/cuda_hgemv](https://github.com/Bruce-Lee-LY/cuda_hgemv) <img src="https://img.shields.io/github/stars/Bruce-Lee-LY/cuda_hgemv?style=social"/> : Several optimization methods of half-precision general matrix vector multiplication (HGEMV) using CUDA core.
+
+    - [enp1s0/ozIMMU](https://github.com/enp1s0/ozIMMU) <img src="https://img.shields.io/github/stars/enp1s0/ozIMMU?style=social"/> : FP64 equivalent GEMM via Int8 Tensor Cores using the Ozaki scheme. [arxiv.org/abs/2306.11975](https://arxiv.org/abs/2306.11975)
 
     - [Cjkkkk/CUDA_gemm](https://github.com/Cjkkkk/CUDA_gemm) <img src="https://img.shields.io/github/stars/Cjkkkk/CUDA_gemm?style=social"/> : A simple high performance CUDA GEMM implementation.
 
