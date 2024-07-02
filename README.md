@@ -1267,9 +1267,15 @@
 
     - 微信公众号「NVIDIA英伟达」
         - [2023-10-27，现已公开发布！欢迎使用 NVIDIA TensorRT-LLM 优化大语言模型推理](https://mp.weixin.qq.com/s/QaSbvyAmI6XXtr0y6W4LNQ)
+        - [2023-11-24，使用 NVIDIA IGX Orin 开发者套件在边缘部署大语言模型](https://mp.weixin.qq.com/s/TOTVc5ntQJfH-DJ4_8uNTQ)
         - [2024-06-03，COMPUTEX 2024 | “加速一切”，NVIDIA CEO 黄仁勋在 COMPUTEX 开幕前发表主题演讲](https://mp.weixin.qq.com/s/usHo79-ssQiX0Rt5dvJ-sQ)
     - 微信公众号「NVIDIA英伟达企业解决方案」
         - [2024-04-24，NVIDIA GPU 架构下的 FP8 训练与推理](https://mp.weixin.qq.com/s/KV4XC9WT-8mfpmEzflIuvw)
+        - [2024-07-01，NVIDIA 端到端解决方案助力理想汽车打造智能驾驶体验与个性化车内空间](https://mp.weixin.qq.com/s/gmkYFj5BcJZHO4GJ_b8pyQ)
+    - 微信公众号「澎峰科技PerfXLab」
+        - [2023-05-24，深入浅出GPU优化系列：GEMM优化（一）](https://mp.weixin.qq.com/s/4aPW_93IV54lzs5JRn0JiA)
+        - [2023-06-02，深入浅出GPU优化系列：GEMM优化（二）](https://mp.weixin.qq.com/s/1q5ocZ7vDDsvew3HNo_9Vg)
+        - [2023-06-16，深入浅出GPU优化系列：GEMM优化（三）](https://mp.weixin.qq.com/s/13Nw6fubNLOMFR3ROc0z0w)
     - 微信公众号「AI不止算法」
         - [2024-03-20，C++模板推导再炫技：统一AI各个device各个kernel的调用和分发](https://mp.weixin.qq.com/s/r1XFocdVrfuArDWzpBYdAg)
         - [2024-04-09，全网首篇从tensorRT-LLM MoE CUDA kernel角度理解Mixtral-8x7b的推理加速及展望](https://mp.weixin.qq.com/s/3PsVUba-kTLIHK_s0RA2ow)
@@ -1295,10 +1301,6 @@
         - [2024-04-10，一文上手 Tensor Core指令级编程](https://mp.weixin.qq.com/s/Gi8ExdfErUkfWu3oRyKvBw)
         - [2024-04-25，动手实现混合精度矩阵乘CUDA内核](https://mp.weixin.qq.com/s/JGYFOsPvUSNMQWjR1gKOOg)
         - [2024-04-26，一文了解CUDA矩阵乘编程](https://mp.weixin.qq.com/s/vG7d7-tAt-mXOgRSb-jZRA)
-    - 微信公众号「澎峰科技PerfXLab」
-        - [2023-05-24，深入浅出GPU优化系列：GEMM优化（一）](https://mp.weixin.qq.com/s/4aPW_93IV54lzs5JRn0JiA)
-        - [2023-06-02，深入浅出GPU优化系列：GEMM优化（二）](https://mp.weixin.qq.com/s/1q5ocZ7vDDsvew3HNo_9Vg)
-        - [2023-06-16，深入浅出GPU优化系列：GEMM优化（三）](https://mp.weixin.qq.com/s/13Nw6fubNLOMFR3ROc0z0w)
     - 微信公众号「机器学习研究组订阅」
         - [2017-12-07，【推荐】CUTLASS：CUDA C++高性能线性代数运算库](https://mp.weixin.qq.com/s/EDmbQ4y3nnkYiHhl3HG_HA)
     - 微信公众号「自动驾驶之心」
@@ -1363,6 +1365,7 @@
     - 微信公众号「DeepDriving」
         - [2023-07-21，AI模型部署 | TensorRT模型INT8量化的Python实现](https://mp.weixin.qq.com/s/IQTCUs8CcfgHxJCyV6cm3w)
     - 微信公众号「GPUS开发者」
+        - [2023-10-30，利用NVIDIA Jetson Orin的强大能力执行本地LLM模型](https://mp.weixin.qq.com/s/6J7fEnumqpzSGrG3plcInw)
         - [2024-05-07，基于NVIDIA Jetson AGX Orin和Audio2Face做一个AI聊天数字人](https://mp.weixin.qq.com/s/7z0uU58IxwoXcI4bZ3z68g)
         - [2024-05-14，CUDA与OpenCL：并行计算革命的冲突与未来](https://mp.weixin.qq.com/s/h0nBvuV8nnfsbX1mjXAXVw)
     - 微信公众号「人工智能大讲堂」
@@ -1386,6 +1389,7 @@
         - [2022-06-16，减少重复造轮子，帮你解放生产力的「小矩阵功能」来啦！](https://mp.weixin.qq.com/s/5PGXUxcUMSfsbVbrennUFA)
     - 微信公众号「GiantPandaCV」
         - [2024-05-27，[并行训练]Context Parallelism的原理与代码浅析](https://mp.weixin.qq.com/s/vXWUUtAQNkBUpgDIJV8C0w)
+        - [2024-07-01，CUDA-MODE 课程笔记 第一课: 如何在 PyTorch 中 profile CUDA kernels](https://mp.weixin.qq.com/s/owF7AFR61SLrOosUPdZPQQ)
     - 微信公众号「硅星人Pro」
         - [2024-06-03，黄仁勋：英伟达将一年推一款全新芯片，没有英伟达就没有今天AI的一切（附最新演讲全文）](https://mp.weixin.qq.com/s/Uc6heL537JNn63JXsDSVOg)
     - 微信公众号「3D视觉之心」
@@ -1394,8 +1398,10 @@
         - [2024-06-01，黄仁勋：不喜欢裁员，我宁愿“折磨”他们｜中企荐读](https://mp.weixin.qq.com/s/8jIgJPsWuCnj92wa61llSw)
     - 微信公众号「CSharp与边缘模型部署」
         - [2024-06-04，使用 TensorRT C++ API 调用GPU加速部署 YOLOv10 实现 500FPS 推理速度——快到飞起！！](https://mp.weixin.qq.com/s/yijeZtkRhbQxuSE1AsyUhA)
-
-
+    - 微信公众号「NeuralTalk」
+        - [2023-06-16，SIMD 指令集与数据并行程序](https://mp.weixin.qq.com/s/dgTtEY5NZh-npQ6KN2WoaA)
+    - 微信公众号「小吴持续学习AI」
+        - [2023-06-12，为CUDA Kernel选择合适的grid_size和block_size](https://mp.weixin.qq.com/s/Je0ZCPv6RKacX__TFL1y4A)
 
 ## Videos
 
